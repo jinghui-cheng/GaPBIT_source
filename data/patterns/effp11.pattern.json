@@ -1,0 +1,40 @@
+{
+	"name": "Focus and Distraction",
+	"definition": "Including intriguing game elements can help distract players with a brain injury from the fact that they are performing activities physically difficult for them (e.g. standing).",
+	"problem": "Therapists may use games to promote patients' endurance (e.g. standing endurance). But for patients who have had a brain injury, standing and moving usually require a considerable amount of effort. A less engaging gaming experience will discourage the efforts to practice for an extended time.",
+	"solution": "Provide intriguing game elements and/or activities that promote concentration and encourage players to focus on the game, so that they are distracted from the fact that they are standing and/or moving.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Kinect Sports - Boxing",
+			"pattern-description": "Players are encouraged to watch the opponent's actions closely and react fast - this promotes concentration and focus."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "The game has a very clear goal and a straightforward task. It poses interesting challenge on controlling the weight-shifting actions and supports concentration and focus."
+		},
+		{
+			"id": "3",
+			"name": "Wii Fit - Penguin Slide",
+			"pattern-description": "The theme and music of the game provides good distraction for suitable patients. Keeping the penguin on the iceberg is a straightforward task with appropriate challenge that promotes focus."
+		},
+		{
+			"id": "4",
+			"name": "Wii Sports Resort - Swordplay-Speed Slice",
+			"pattern-description": "Identifying and reacting to the specified direction pose interesting challenge and promote concentration and focus."
+		}
+	],
+	"related-patterns": [
+		{
+			"name1": "Integrated Standing Duration",
+			"name2": "Self-Paced Weight Shifting",
+			"name3": "Fine Control",
+			"name4": "Minimalist Task",
+			"name5": "Optimal/Adjustable Pace",
+			"name6": "Unpredictable Events",
+			"name7": "Collocated Multiplayer",
+			"description": "Can be facilitated using many other patterns, including $rPattern1, $rPattern2, $rPattern3, $rPattern4, $rPattern5, $rPattern6, and $rPattern7"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "Optimal/Adjustable Pace",
+	"definition": "When focusing on improving processing speed, allowing players to adjust the pace of game events can accommodate different patient abilities .",
+	"problem": "When working on processing speed, a relatively fast-paced game is usually desired. But setting an appropriate game speed can be tricky since all patients have different abilities and impairments. While a game that is too fast can be intimidating and not playable by many patients, a game that is too slow may sometimes not be able to pose enough challenge for high-level patients and thus can be ineffective at addressing the desired therapeutic goals.",
+	"solution": "Allowing therapists or patients to adjust the pace (or automatically adjust the pace) of the game. While many commercial games do not have the desired adjustable features, therapists identified that adding such feature to games that were effective at addressing Processing Speed can potentially benefit a wider range of patients.",
+	"example-games": "none",
+	"anti-example-games": [
+		{
+			"id": "1",
+			"name": "Kinect Sports - Table Tennis Paddle Panic",
+			"pattern-description": "It is an effective game at addressing Processing Speed for high-level patients. But the speed of the incoming balls is too fast for many patients and is not adjustable."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Soccer Heading",
+			"pattern-description": "The pace of the weight shifting has to follow that of the incoming balls and is not adjustable. The default pace is too fast for many patients who have had a brain injury."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Self-Paced Weight Shifting",
+			"description": "$rPattern mainly concerns the pace of player actions, while $thisPattern concerns the pace of events happening in the game"
+		},
+		{
+			"name": "Unpredictable Events",
+			"description": "Usually used with $rPattern to make sure the events happen in a pace that matches player abilities"
+		},
+		{
+			"name": "Focus and Distraction",
+			"description": "$thisPattern focuses on balancing the challenge of the game and player skill, and thus facilitates player engagement and can create $rPattern"
+		}
+	]
+}

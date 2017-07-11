@@ -1,0 +1,23 @@
+{
+	"name": "Turn-Based Multiplayer",
+	"definition": "Turn-based multiplayer games can be socializing spaces to support practicing turn taking skills for patients with a brain injury.",
+	"problem": "Turn taking is an important social skill (e.g. in conversations) that is influenced by subtle cultural factors. Brain injuries can sometimes have an impact on this skill and thus affect the patient's ability to interact with other people. Games involving concurrent multiplayer activities (e.g. table tennis, boxing) were not effective at addressing this goal.",
+	"solution": "Include turn-based multiplayer features (preferably collocated) to promote social interaction in games and support practicing turn taking skills.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports or Kinect Sports - Bowling",
+			"pattern-description": "In a bowling game, it is always clear as to who is playing and who is waiting. Players need to understand that they have to wait until all other players finish their turn to play the next turn."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Collocated Multiplayer",
+			"description": "Usually used with $rPattern to further encourage in-person social interaction, especially when there is a long lag time between turns"
+		},
+		{
+			"name": "Step by Step",
+			"description": "Can be used with $rPattern to support both sequencing and social interaction"
+		}
+	]
+}

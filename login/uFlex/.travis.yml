@@ -1,0 +1,12 @@
+language: php
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+
+before_script:
+  - composer update
+  - mysql -e 'CREATE DATABASE uflex_ut;'
+  - mysql uflex_ut < db/users_table.sql
+
+script: phpunit -c tests/phpunit.xml.dist

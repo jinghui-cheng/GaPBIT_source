@@ -1,0 +1,30 @@
+{
+	"name": "Enabling Theme",
+	"definition": "An engaging game experience of a patient with a brain injury sometimes comes from a game theme that 'enables' the player to perform activities that he or she cannot do in the real life because of a disability.",
+	"problem": "Because of physical and cognitive disabilities, people with brain injuries may not be able to perform activities that they were able to enjoy prior to their injury (e.g. sports, dancing). This can lead to pessimism and contribute to skepticism about playing games.",
+	"solution": "Allow players to do something that they cannot do in real life because of a disability. Borrow elements from activities that the patients enjoy do to before brain injury. Try to elicit the experience that patients would miss because of a brain injury.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports or Kinect Sports - Bowling",
+			"pattern-description": "Players can play a bowling game with friends or caregivers. They can pick up this traditional social event through this game."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Sports - Soccer",
+			"pattern-description": "Players who used to play soccer can catch up on this hobby through this game."
+		},
+		{
+			"id": "3",
+			"name": "Wii Fit - Ski Jump",
+			"control": "$wii-balance-board",
+			"pattern-description": "Players can experience the speed and tense in this game without being able to ski."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Familiar Theme",
+			"description": "$rPattern and $thisPattern usually work together to create an engaging game environment"
+		}
+	]
+}

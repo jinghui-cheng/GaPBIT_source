@@ -1,0 +1,26 @@
+{
+	"name": "Optimistic Performance Evaluation",
+	"definition": "Providing abundant positive feedback can encourage continued play for players with a brain injury.",
+	"problem": "People who have had a brain injury often perform poorly in commercial games. Further, commercial games often 'punish' players by providing negative performance feedback to encourage players to perform better. However, too much negative feedback (which is common for people with a brain injury) will discourage players from continued play.",
+	"solution": "Use punishments sparingly. Instead, provide a lot of positive feedback to encourage continued play. Note that this only as to do with the quality of the feedback - this does not mean that the game should be made less challenging (an appropriate level of challenge is normally desired); see the Challenge Patterns for more info.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Kinect Adventures",
+			"pattern-description": "Games in the Kinect Adventures focus on score collection. It is easy for players to get at least a bronze medal with an okay performance. And there is no negative feedback in the game."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "2",
+			"name": "Wii Fit Balance Games",
+			"pattern-description": "When players did not perform well, the Wii Fit games will give out a score and say 'Unbalanced' in the result screen. This is very discouraging (and sometimes offending) for patients who have had a brain injury, especially if they have a balancing issue."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Advancing",
+			"description": "Usually used with $rPattern to promote a sense of progress"
+		}
+	]
+}

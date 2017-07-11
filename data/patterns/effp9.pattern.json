@@ -1,0 +1,46 @@
+{
+	"name": "Unpredictable Events",
+	"definition": "Making game events somewhat unpredictable can promote perception, reaction, and hand-eye coordination abilities for patients with a brain injury.",
+	"problem": "Practicing hand-eye coordination abilities usually involves perception and reaction to events. A game with periodical or predicable events can limit its effectiveness on rehabilitation of hand-eye coordination abilities.",
+	"solution": "Make events appear in a somewhat unpredictable manner to introduce uncertainty in the game. A fairly fast pace is often desired but the speed needs to match patient abilities. A human opponent with a matching skill or an adjustable computer opponent can sometimes provide unpredictable events in an appropriate pace.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports Resort - Swordplay-Speed Slice",
+			"pattern-description": "The direction is randomized and the players need to react to the specified direction as fast as possible."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Sports - Table Tennis",
+			"pattern-description": "Players need to react to the somewhat unpredictable direction and speed of the ball and swing their arm accordingly."
+		},
+		{
+			"id": "3",
+			"name": "Kinect Sports - Boxing",
+			"pattern-description": "Players need to react to the opponent's actions and to attack or defend accordingly."
+		},
+		{
+			"id": "4",
+			"name": "Kinect Adventures - Rally Ball",
+			"pattern-description": "Players need to react to the somewhat unpredictable direction and speed of the balls and coordinate their body to hit the balls."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Optimal/Adjustable Pace",
+			"description": "Usually Used with $rPattern to make sure the Unpredictable Events happen in a pace that matches player abilities"
+		},
+		{
+			"name": "Minimalist Task",
+			"description": "Usually used with $rPattern to target on support training of attention and concentration"
+		},
+		{
+			"name": "Focus and Distraction",
+			"description": "$thisPattern can promote $rPattern"
+		},
+		{
+			"name": "Collocated Multiplayer",
+			"description": "Supporting real-time (i.e. not turn-based) $rPattern can be a way to create Unpredictable Events"
+		}
+	]
+}

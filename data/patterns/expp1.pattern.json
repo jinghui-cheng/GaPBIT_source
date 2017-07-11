@@ -1,0 +1,37 @@
+{
+	"name": "Multiplayer Competition",
+	"definition": "Multiplayer competitive play (with peer patients or caregivers) can provide an appropriate amount of challenge as a motivator for players with a brain injury.",
+	"problem": "Challenge can be stressful for people who have had a brain injury. However, an appropriate amount of challenge is motivating.",
+	"solution": "Support multiplayer to foster competition and socialization so that they can play with their peer patients who have similar level of skills or with their caregivers who can adjust the challenge level based on the patient's skill. This way, they get an appropriate amount of challenge from the other players.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports or Kinect Sports - Bowling",
+			"pattern-description": "This is a popular game in the hospital that patients spontaneously play with their peer patients in spare time."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Sports - Boxing",
+			"pattern-description": "The easiest level of the computer opponent is usually still very difficult for players who have had a brain injury. But when two players play together, the challenge level can be adjusted by the performance of the other player."
+		},
+		{
+			"id": "3",
+			"name": "Wii Sports Resort - Swordplay-Speed Slice",
+			"pattern-description": "Two players can compete in reaction speed. The player who swings the first in the correct direction earns a point. The challenge level of reaction speed thus comes from the other player, who, if is also a patient, can provide a challenge level that matches the player's skill and ability."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Age Appropriate Theme",
+			"description": "Games with $rPattern can be engaging to be played by patients with friends who are of the similar age, and thus are good candidates for Multiplayer Competition"
+		},
+		{
+			"name": "Pick up and Play",
+			"description": "$thisPattern is usually used with games that are easier for patients to $rPattern so that new players don't have to go through a steep learning curve"
+		},
+		{
+			"name": "Familiar Theme",
+			"description": "Games with a $rPattern to a certain patient group are good candidates for $thisPattern"
+		}
+	]
+}

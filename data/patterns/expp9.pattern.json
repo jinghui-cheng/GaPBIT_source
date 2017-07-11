@@ -1,0 +1,31 @@
+{
+	"name": "Age Appropriate Theme",
+	"definition": "Patients who have had a brain injury can cover a wide range of age groups. A successful game for brain injury rehabilitation usually has a theme that is appropriate to the players' age group.",
+	"problem": "Patients who have had a brain injury can range in age from teenagers to very elderly people. Players would not enjoy a game if they feel the theme is too naïve or childish or too serious.",
+	"solution": "Provide age-appropriate theme according to the target player's age group. If desired (and if possible), cater both young and elderly people's taste. For example, there are people from all age groups who like to dance, but only to their favorite songs. (i.e. old and young people have different tastes on music and songs); so provide a collection of hit songs from different periods can cater different age groups.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports - Golf",
+			"pattern-description": "While the graphics is cartoonish, the theme of the Golf game is familiar to both old (70-80) and young (40-50) players with a brain injury."
+		},
+		{
+			"id": "2",
+			"name": "Dance Central 3",
+			"pattern-description": "In this game, players can dance with songs from different decades ranging from 1970s to 2010s."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "3",
+			"name": "Wii Fit - Penguin Slide",
+			"pattern-description": "While it is a very good weight-shifting exercise, many patients complained about the childish theme of the game."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Multiplayer Competition",
+			"description": "Games with Age Appropriate Theme can be engaging to be played by patients with friends who are of the similar age, and thus are good candidates for $rPattern."
+		}
+	]
+}

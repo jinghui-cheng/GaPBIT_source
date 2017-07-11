@@ -1,0 +1,37 @@
+{
+	"name": "Integrated Standing Duration",
+	"definition": "Standing duration can be integrated into the game's challenge to encourage standing for patients with different standing abilities.",
+	"problem": "Therapists may use games to motivate patients to stand. However, games involve fixed standing durations (e.g. a time limit) may not be suitable for a wider range of patients who have different standing abilities. Patients with a shorter standing endurance will not be able to play the game; and for those with a longer standing endurance, the game will not be challenging enough to improve the standing ability.",
+	"solution": "Allow the player to determine how much time they will stand by just playing the game. Eliminate time limits. Instead, provide alternative limits (e.g. number of life, increased challenge level) that integrate standing into the challenge of the game so that the players may always meet their standing duration limits.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "While each level has a time limit, the total standing time is integrated: higher level players can clear the first levels fast and focus more on the more challenging levels (unused time will be carried over to later levels); lower level players can play the first few levels and get a good practice on standing."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Sports - Table Tennis",
+			"pattern-description": "Standing is integrated in that there is no time limit on the game - player win or lose by earning a certain amount of points."
+		},
+		{
+			"id": "3",
+			"name": "Wii Fit - Balance Bubble",
+			"pattern-description": "Whenever the bubble hits the bank or an obstacle, the game ends - so the standing and weight-shifting requirements are integrated in the challenge of the game."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Self-Paced Weight Shifting",
+			"description": "Usually used with $rPattern to help players concentrate on weight shifting activities (e.g. without the distractions of time limit)"
+		},
+		{
+			"name": "Weight Shifting to the Extremes",
+			"description": "Sometimes used with $rPattern to create a balanced level of challenge for standing, weigh shifting and balance"
+		},
+		{
+			"name": "Focus and Distraction",
+			"description": "$thisPattern usually creates a good balance between challenge and skill (encouraging engagement) and thus facilitates $rPattern"
+		}
+	]
+}

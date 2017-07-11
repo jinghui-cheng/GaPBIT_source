@@ -1,0 +1,46 @@
+{
+	"name": "Moving Different Body Parts",
+	"definition": "Involving movement of different body parts or different muscles can promote awareness of physical deficits for patients with a brain injury.",
+	"problem": "An awareness of the exact area of physical deficits is important for patients with a brain injury to be motivated and focused on certain aspects of rehabilitation. But patients with a brain injury may not have this awareness due to cognitive impairments.",
+	"solution": "Give the player opportunity to control game objects by using different muscles or different parts of the body and provide clear performance feedback so that they can see the exact area of their deficits.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "The game requires control and frequent change of weight-shifting directions. It also provides direct visual and gameplay feedback associated with their weight-shifting actions involving multiple body parts. This is important for patients to gain insights into their physical deficits such as balancing and neglect on one side of the body."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Soccer Heading",
+			"pattern-description": "The players are required to weight-shift fast from left to right - this requirement helps patients to notice if they have a weaker side and to establish insights into their perception and reaction deficits."
+		},
+		{
+			"id": "3",
+			"name": "Kinect Adventures - 20,000 Leaks",
+			"pattern-description": "The requirement of moving all limbs helps players to establish a comprehensive understanding about the movement of their limbs and gain deep insights if they have a physical deficit."
+		},
+		{
+			"id": "4",
+			"name": "Kinect Adventures - Rally Ball",
+			"pattern-description": "The requirement of moving all parts of the body helps players to establish a comprehensive understanding about the movement of their body and gain insights if they have a physical deficit."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Change Hands",
+			"description": "Can be facilitated by using $rPattern"
+		},
+		{
+			"name": "Fine Control",
+			"description": "Can be used with $rPattern to practice control over different parts of the body"
+		},
+		{
+			"name": "Three-Dimensional Space",
+			"description": "Usually used in $rPattern to include movements in different dimensions"
+		},
+		{
+			"name": "Self-Paced Weight Shifting",
+			"description": "When focusing on weight shifting, it is usually used with $rPattern to help patients focused on the deficit in a low-pressure environment"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+.info-section {
+  margin-bottom: 20px;
+}
+
+.info-section-group > .info-section {
+  margin-bottom: 2px;
+}
+
+.info-section-title {
+  background-color: #3594D6;
+  color: #F9FAFB;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.info-section-title > a {
+  color: #F9FAFB;
+}
+
+.info-section-body {
+  /*height: calc(100% - 42px);*/
+  border-radius: 0 0 6px 6px;
+}
+
+.info-section-collapse > .info-section-title {
+  /*height: 34px;*/
+  padding: 5px 15px;
+}
+.info-section-collapse > .info-section-body > .well {
+  border-radius: 0 0 6px 6px;
+  overflow-y: auto;
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.info-section-collapse > .info-section-body > .well > ul {
+  padding-left: 16px;
+}
+
+.info-section-collapse > .info-section-body > .well > ul > li {
+  margin-bottom: 18px;
+  line-height: 160%;
+}
+
+.info-section-collapse > .info-section-body > .well > ul > li > ol{
+  padding-left: 16px;
+}
+
+a.backLinkToAbout {
+  padding: 2px;
+  font-size: 12px;
+  background-color: #F9FAFB;
+  color: #000;
+  border: 1px solid #324653;
+  text-decoration: none;
+}
+
+a.backLinkToAbout:hover {
+  background-color: #324653;
+  color: #fff;
+}
+
+.col-md-3p5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .col-md-3p5 {
+    float: left;
+    width: 29.167%;
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Three-Dimensional Space",
+	"definition": "Including easy-to-understand 3D environments can promote visual spatial abilities for patients with a brain injury.",
+	"problem": "Brain injuries can have an impact on patient's ability to understand spatial relationships among objects. This can further affect their navigation skills and visual memory.",
+	"solution": "Include a simple three-dimensional space in the game to support rehabilitation of visual spatial abilities. Involve object movement and rotation to promote understanding of spatial relationships. Make sure the complexity of the space and the movement matches the patient's abilities.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "The table tilts in a three-dimensional space according to the player's weight shifting directions and spins when a marble falls off the table, so it promotes and challenges on the player's visual spatial abilities."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Adventures - 20,000 Leaks",
+			"pattern-description": "In order to play the game, players need to mentally map their body to their avatar in the game and their environment to the virtual cube. In other words, they need to understand relationships among objects in the real-world space and objects in a virtual three-dimensional space to play the game."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Moving Different Body Parts",
+			"description": "Can be used with $rPattern to include movements in different dimensions"
+		}
+	]
+}

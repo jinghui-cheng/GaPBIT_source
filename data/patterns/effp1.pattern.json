@@ -1,0 +1,38 @@
+{
+	"name": "Change Hands",
+	"definition": "Involving movements of both sides of the body can help encourage bilateral hand use for patients with a brain injury.",
+	"problem": "Patients with a brain injury may have a dominant side they prefer to use. Reestablishing the functionality of the non-dominant side can be a therapeutic goal of brain injury rehabilitation. A game that only requires movements of one side of the body may discourage the player to use their non-dominant side.",
+	"solution": "Involve movements of both sides of the body in the game. Include mechanisms to encourage change of hands, arms, and/or legs change so the players can work on their non-dominant side.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Kinect Sports - Boxing",
+			"pattern-description": "In order to effectively attack and defend, player needs to use both arms."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Sports - Table Tennis Paddle Panic",
+			"pattern-description": "The balls are served to different directions. The speed and angle of the incoming balls encourage the player to use both hands to hit the balls."
+		},
+		{
+			"id": "3",
+			"name": "Kinect Adventures - Rally Ball",
+			"pattern-description": "The players are encouraged to use both arms and/or both legs in order to effectively hit the balls."
+		},
+		{
+			"id": "4",
+			"name": "Body Brain Connection - Traffic Control",
+			"pattern-description": "In order to play the game, the player has to hold out and move both arms. The game also provides a cognitive challenge for players to find solutions guiding multiple vehicles to their corresponding destinations, so the player sometimes needs to be aware of future events and adjust the positions of both arms accordingly."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Fine Control",
+			"description": "Can be used with $rPattern to practice control over both sides of the body"
+		},
+		{
+			"name": "Moving Different Body Parts",
+			"description": "Facilitates $rPattern to help address the Insights into deficits goal"
+		}
+	]
+}

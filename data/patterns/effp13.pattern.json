@@ -1,0 +1,34 @@
+{
+	"name": "Collocated Multiplayer",
+	"definition": "Collocated multiplayer games can be a 'safe' in-person socializing space for patients with a brain injury.",
+	"problem": "Patients who have had a brain injury need to be connected with their friends and family, their community, and the rest of the world. Some patients have difficulty socializing with other people because of self-consciousness caused by their disabilities.",
+	"solution": "Games can create a 'safe' socializing space. Include collocated multiplayer features to encourage in-person social interaction. Preferably, include real-life activities players are already familiar with to facilitate socialization.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports or Kinect Sports - Bowling",
+			"pattern-description": "Bowling alleys are usually social spaces in real life. But patients with brain injury are usually not able to play a real bowling game because of a disability. A video game of bowling naturally supports collocated social interaction and attracts players who used to bowl prior to brain injury."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Sports - Boxing",
+			"pattern-description": "Two patients or a patient and his/her caregiver can play a competitive boxing game. The intense physical activity involved in the game adds flavor to collocated socialization."
+		},
+		{
+			"id": "3",
+			"name": "Wii Sports Resort - Swordplay-Speed Slice",
+			"pattern-description": "Two players can compete in reaction speed and socialize through playing the game. The player who swings the first in the correct direction earns a point."
+		}
+	],
+	"related-patterns": [
+		{
+			"name1": "Unpredictable Events",
+			"name2": "Focus and Distraction",
+			"description": "Can be used to create $rPattern1 to facilitate $rPattern2"
+		},
+		{
+			"name": "Turn-Based Multiplayer",
+			"description": "Can be used with $rPattern to support in-person socialization and turn taking"
+		}
+	]
+}

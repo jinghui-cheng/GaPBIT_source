@@ -1,0 +1,37 @@
+{
+	"name": "Minimalist Task",
+	"definition": "Involving minimalist but interesting player choices in the game task can promote attention and concentration for patients with a brain injury.",
+	"problem": "Patients sometimes have a limited attention and concentration span that needs to be addressed in therapy. A game that involves complicated tasks (e.g. tasks that involve multiple steps) will be too challenging for them to understand and learn. However, if a game is too simple and dry, player can easily lose interest.",
+	"solution": "Provide simple tasks that involve a minimal number of possible player actions or action steps; but on the other hand pose an appropriate level of challenge on the control of the attributes of the actions (e.g. timing or intensity) to promote concentration.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "While the movement is simple (i.e. weight shifting), players need to carefully control the direction and degree of weight shifting in order to move the marbles towards the holes and prevent them from falling off the table."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Soccer Heading",
+			"pattern-description": "The movement is simple, but controlling when and to which direction to shift the weight (in reaction to the incoming balls) poses an interesting challenge."
+		},
+		{
+			"id": "3",
+			"name": "Wii Sports Resort - Swordplay-Speed Slice",
+			"pattern-description": "Identifying and reacting to the specified direction pose interesting challenges to a simple task (arm swing)."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Fine Control",
+			"description": "Can be used with $rPattern to focus on the precision of a movement"
+		},
+		{
+			"name": "Unpredictable Events",
+			"description": "Usually used with $rPattern to impose challenge and address hand-eye coordination goals"
+		},
+		{
+			"name": "Focus and Distraction",
+			"description": "$thisPattern strengthens attention and concentration and thus promotes $rPattern"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+.base-color{
+  background-color: #3594D6;  /*base color*/
+}
+
+.base-color-darkest{
+  background-color: #053253;
+}
+
+.base-color-darker{
+  background-color: #096EB5;
+}
+
+.base-color-lighter{
+  background-color: #6FB7EA;
+}
+
+.base-color-lightest{
+  background-color: #CDE9FC;
+}
+
+.dark-gray{
+  background-color: #324653;  /*dark gray color*/
+}
+
+.medium-gray{
+  background-color: #E5E8EB;
+}
+
+.light-gray{
+  background-color: #F9FAFB;  /*light gray color*/
+}
+
+.accent-color {
+  background-color: #ffa632;  /*accent color*/
+}

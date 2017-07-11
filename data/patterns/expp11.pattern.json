@@ -1,0 +1,38 @@
+{
+	"name": "Familiar Theme",
+	"definition": "A game theme that is familiar to the target players with a brain injury can help them feel more related to the game, and thus promote player engagement.",
+	"problem": "Patients with a brain injury are typically older and thus may not be familiar with the modern video games. They are more familiar with various kinds of physical activities (e.g. sports, physical games) and/or traditional games (e.g. board games, TV game shows).",
+	"solution": "Replicate or borrow elements from physical activities (e.g. sports, physical games) and/or traditional games (e.g. board games, TV game shows) to leverage older players' familiarity and satisfy their nostalgia on these activities.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports or Kinect Sports - Bowling",
+			"control": "$wii-remote",
+			"pattern-description": "The rules of bowling are familiar to most players. This is a popular game in the hospital that patients spontaneously play with their peer patients in spare time."
+		},
+		{
+			"id": "2",
+			"name": "Wii Sports - Golf",
+			"pattern-description": "Players who used to golf enjoy this game because of familiarity."
+		},
+		{
+			"id": "3",
+			"name": "Family Feud (Wii)",
+			"pattern-description": "The TV game show is familiar to most US players. Older patients enjoy being able to play this game."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Pick up and Play",
+			"description": "$thisPattern sometimes entails familiar rules of the game, and thus facilitates $rPattern"
+		},
+		{
+			"name": "Multiplayer Competition",
+			"description": "Games with a $thisPattern to patients are sometimes better candidates for $rPattern because of a gentle learning curve."
+		},
+		{
+			"name": "Enabling Theme",
+			"description": "$thisPattern and $rPattern usually work together to create an engaging game environment"
+		}
+	]
+}

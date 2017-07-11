@@ -1,0 +1,28 @@
+{
+	"name": "Weight Shifting to the Extremes",
+	"definition": "Encouraging movement to the most feasible extend when weight shifting can support physical training for patients with a brain injury and help then be aware of their physical competences and limitations.",
+	"problem": "Patients can sometimes afraid to shift their weights to the extremes even after they have regained balancing abilities. That is, they do not have the confidence performing certain activities even after they have regained the physical competence. This can affect patients' balance and gait and restrict their daily functioning.",
+	"solution": "Encourage players to shift their weight side-to-side to the extremes (to the most feasible extend) to support physical training and help patients see their physical competences and limitations. Extra support is usually needed to protect patients from falling.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Soccer Heading",
+			"pattern-description": "The soccer balls are often kicked in to the sides, so it encourages players to shift weight to the extremes in order to hit them effectively."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Penguin Slide",
+			"pattern-description": "While players can shift weight at their own pace and degree, the game encourages players to shift weight to the extremes by awarding more points - the red fish (with bonus scores) often appears at the edge of the iceberg."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Self-Paced Weight Shifting",
+			"description": "Can be used with $rPattern to help players be more focused and more comfortable to shift their weight to the extremes"
+		},
+		{
+			"name": "Integrated Standing Duration",
+			"description": "Can be used with $rPattern to also practice standing"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+id,name,type
+g1,Bilateral hand use,phy
+g2,Dynamic balance,phy
+g3,Endurance,phy
+g4,Fine motor,phy
+g5,Hand-eye coordination,phy
+g6,Ocular motor,phy
+g7,Standing,phy
+g8,Static balance,phy
+g9,Weight shifting,phy
+g10,Attention and concentration,cog
+g11,Auditory comprehension,cog
+g12,Calculations,cog
+g13,Command following,cog
+g14,Initiation,cog
+g15,Insight into deficits,cog
+g16,Memory,cog
+g17,Processing speed,cog
+g18,Reading comprehension,cog
+g19,Reasoning and problem solving,cog
+g20,Sequencing,cog
+g21,Socialization,cog
+g22,Turn taking,cog
+g23,Verbal expression,cog
+g24,Visual-spatial abilities,cog
+g25,Written expression,cog
+g26,Balancing,phy

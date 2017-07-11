@@ -1,0 +1,151 @@
+{
+   "example-games":[
+      {
+         "name":"Kinect Sports - Boxing",
+         "gameID":"2.3.10",
+         "control":"$kinect",
+         "gameplay":"Players punch in the air to attack the opponent (either another player or a computer opponent) or hold both arms in front of face to defend."
+      },
+      {
+         "name":"Kinect Sports - Table Tennis Paddle Panic",
+         "gameID":"2.3.16",
+         "control":"$kinect",
+         "gameplay":"Player hits the continuously incoming Ping-Pong balls by swinging arms as if they were holding paddles in both hands."
+      },
+      {
+         "name":"Kinect Adventures - Rally Ball",
+         "gameID":"2.40.51",
+         "control":"$kinect",
+         "gameplay":"Players use limbs and head to hit virtual rally balls towards the boxes and targets located at the end of a virtual hallway; with each target dismantled, additional balls are projected back to be hit."
+      },
+      {
+         "name":"Body Brain Connection - Traffic Control",
+         "gameID":"2.62.0",
+         "control":"$kinect",
+         "gameplay":"Player holds out both arms as bridges to guide multiple cars and trucks moving on platforms to the destinations designated by the vehicle's color. "
+      },
+      {
+         "name":"Wii Fit - Table Tilt",
+         "gameID":"1.30.76",
+         "control":"$wii-balance-board",
+         "gameplay":"Players shift weight on a balance board in all directions (front-and-back and side-to-side) to tilt a table and guide marbles through holes."
+      },
+      {
+         "name":"Kinect Sports - Table Tennis",
+         "gameID":"2.3.15",
+         "control":"$kinect",
+         "gameplay":"Player stands and swings one arm to play table tennis with another player or a computer opponent."
+      },
+      {
+         "name":"Wii Fit - Balance Bubble",
+         "gameID":"1.30.78",
+         "control":"$wii-balance-board",
+         "gameplay":"Player's avatar stands in a bubble that runs along a stream. Players shift weight front and back to control the speed of the bubble and shift weight from side to side to steer the bubble; the goal is to reach the finish line while avoiding the riverbank and other obstacles (e.g. a flying bee)."
+      },
+      {
+         "name":"Wii Fit - Soccer Heading",
+         "gameID":"1.30.79",
+         "control":"$wii-balance-board",
+         "gameplay":"Players shift weight from side to side to head soccer balls that are kicked in, while avoiding hitting foils."
+      },
+      {
+         "name":"Kinect Adventures - 20,000 Leaks",
+         "gameID":"2.40.50",
+         "control":"$kinect",
+         "gameplay":"The player's avatar is in a glass cube underwater. The player positions limbs and head to plug cracks as crabs, fish, and sharks hit the cube; if multiple cracks appear, the player has to plug all of them at the same time."
+      },
+      {
+         "name":"Wii Fit - Penguin Slide",
+         "gameID":"1.30.75",
+         "control":"$wii-balance-board",
+         "gameplay":"Players shift weight from side to side to tilt an iceberg and let a penguin that slides on it catch fish jumping out from the water."
+      },
+      {
+         "name":"Kinect Sports - Soccer Target Kick",
+         "gameID":"2.3.6",
+         "control":"$kinect",
+         "gameplay":"Players kick virtual soccer balls to hit the targets that are protected by a goalie."
+      },
+      {
+         "name":"Wii Sports Resort - Swordplay-Speed Slice",
+         "gameID":"1.2.31",
+         "control":"$wii-remote",
+         "gameplay":"Players swing the Wii remote in the direction specified on an object when it appears to cut the object."
+      },
+      {
+         "name":"Wii Sports - Bowling",
+         "gameID":"1.1.1",
+         "control":"$wii-remote",
+         "gameplay":"Players play a virtual bowling game against up to three other players or computer opponents."
+      },
+      {
+         "name":"Minute to Win it - Bucket Head",
+         "gameID":"2.41.55",
+         "control":"$kinect",
+         "gameplay":"Players throw virtual Ping-Pong balls to a wall and catch the rebounding balls using a virtual bucket strapped on head."
+      },
+      {
+         "name":"Wii Sports - Golf",
+         "gameID":"1.1.27",
+         "control":"$wii-remote",
+         "gameplay":"Players play a virtual golf game using the Wii Remote."
+      },
+      {
+         "name":"Wii Sports or Kinect Sports - Bowling",
+         "gameID":"1.1.1/2.3.1",
+         "control":"$wii-remote_or_kinect",
+         "gameplay":"Players play a virtual bowling game against up to three other players."
+      },
+      {
+         "name":"Kinect Sports - Bowling",
+         "gameID":"2.3.1",
+         "control":"$kinect",
+         "gameplay":"Players play a virtual bowling game against up to three other players."
+      },
+      {
+         "name":"Kinect Adventures - River Rush",
+         "gameID":"2.40.52",
+         "control":"$kinect",
+         "gameplay":"The player's avatar stands on a raft that is moving down a river. The player steps left and right and jumps to control the raft in order to collect points scattered throughout the river."
+      },
+      {
+         "name":"Wii Fit - Obstacle Course",
+         "gameID":"1.30.77",
+         "control":"$wii-balance-board",
+         "gameplay":"Players walk in-place and 'jump' (bend and then extend knees) to control the avatar through various obstacles."
+      },
+      {
+         "name":"Kinect Adventures",
+         "gameID":"",
+         "control":"$kinect"
+      },
+      {
+         "name":"Wii Fit Balance Games",
+         "gameID":"",
+         "control":"$wii-balance-board"
+      },
+      {
+         "name":"Dance Central 3",
+         "gameID":"2.22.0",
+         "control":"$kinect",
+         "gameplay":"Players move their body to dance along to the song and try to follow the movement instructions on the screen."
+      },
+      {
+         "name":"Kinect Sports - Soccer",
+         "gameID":"2.3.5",
+         "control":"$kinect",
+         "gameplay":"Player plays the active soccer player to pass the ball, shoot the ball, and intercept shots at goal (as a goalie)."
+      },
+      {
+         "name":"Wii Fit - Ski Jump",
+         "gameID":"1.30.80",
+         "control":"$wii-balance-board",
+         "gameplay":"Player skis downhill and is asked to 'jump' (bend and then straighten knees) at a certain point."
+      },
+      {
+         "name":"Family Feud (Wii)",
+         "gameID":"1.42.0",
+         "control":"$wii-remote"
+      }
+   ]
+}

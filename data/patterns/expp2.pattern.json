@@ -1,0 +1,45 @@
+{
+	"name": "Optional High-Level Challenge",
+	"definition": "If high level challenges are optional, these challenges would not intimidate low level patients with a brain injury and they can serve as a bonus to motivate high level patients.",
+	"problem": "Because of the wide range of effects (both physical and cognitive), it is very difficult to identify the 'right' level of challenge for people who have had a brain injury, especially for a solo game.",
+	"solution": "For a solo game, provide regular challenges throughout the play but occasionally give the player optional higher-level challenges. The high-level challenges should NOT be associated with the progress of the game (i.e. the player should be able to continue playing the game even if they were not able to fight off the challenge). Instead, the high-level challenges should provide appropriate kinds of incentives (e.g. via bonus points or special abilities) to encourage players to beat them off - that could be a reason of player replay.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Penguin Slide",
+			"pattern-description": "Blue fish are easiest to catch but provide the lowest points, followed by green fish; those are regular challenges. Red fish (high-level challenges) appear occasionally, are very difficult to catch, and provide the highest points. Players do not have to catch the red fish to finish the game; in fact, some therapists advised the patient to ignore the red fish because they are too difficult. But for higher-level patients, the red fish are rewarding challenges."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Adventures - River Rush",
+			"control": "$kinect",
+			"pattern-description": "There are bonus points that involve a lot of jumping and skillful steering to enter and stay in (i.e. high-level challenges); but those are all optional to the players."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "3",
+			"name": "Wii Fit - Balance Bubble",
+			"pattern-description": "The riverbank with gentle curves represents regular challenges, while the riverbank with sharp curves and some moving obstacles represents high level challenges. Whenever the bubble hits the bank or an obstacle, the player has to start from the very beginning of the stream; in other words, the high level challenges are not optional. Many patients with brain injuries consider the high level challenges in this game as frustrating. Very few patients can reach the final line, even for the first level."
+		},
+		{
+			"id": "4",
+			"name": "Wii Fit - Obstacle Course",
+			"pattern-description": "Obstacles that require walking and waiting (e.g. to step on a moving platform, or to avoid a moving ball) represents regular challenges, while obstacles that requiring 'jumping' represents high-level challenges (some patients don't have coordination to balance when knees are bent). The high-level challenges are not optional. Whenever failed to pass an obstacle, the player has to replay the level. This frustrates many patients with a brain injury."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Advancing",
+			"description": "$thisPattern requires that the high-level challenges are not associated with the progress of the game, so it promotes $rPattern"
+		},
+		{
+			"name": "Adjustable Speed",
+			"description": "Can be used with $rPattern to accommodate wider range of patients"
+		},
+		{
+			"name": "Gentle Challenge Ramp",
+			"description": "Can be used with $rPattern to promote player engagement with the optional high-level challenges"
+		}
+	]
+}

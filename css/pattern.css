@@ -1,0 +1,169 @@
+.well {
+  overflow: auto;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+
+.therapist-comments-well {
+  margin-bottom: 10px;
+}
+
+.pattern-name {
+  font-size: 26px;
+  font-weight: bold;
+  display: inline;
+}
+
+.pattern-category {
+  margin-top: 8px;
+  padding-left: 25px;
+  font-size: 12px;
+  display: inline;
+}
+
+.pattern-therapy-goals {
+  padding-left: 25px;
+  font-size: 12px;
+  display: inline;
+}
+
+.tagButton {
+  font-weight: 500;
+  padding: 2px 5px;
+  margin-left: 8px;
+  background-color: #F9FAFB;
+  color: #000;
+  border: 1px solid #324653;
+}
+
+.tagButton:hover,
+.tagButton:hover > a  {
+  background-color: #324653;
+  color: #fff;
+  text-decoration: none;
+}
+.tooltip-inner {
+  width: 160px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.pattern-section-content {
+  padding: 10px 20px;
+  height: calc(100% - 38px);
+}
+
+.realted-patterns-list {
+  padding: 5px 0 5px 20px;
+  line-height: 180%;
+  margin-bottom: 0;
+}
+.realted-patterns-list > li {
+  margin-bottom: 10px;
+}
+.realted-patterns-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.related-pattern-link {
+  padding: 4px 8px;
+  margin: 0 3px;
+  color: #324653;
+  background-color: #E5E8EB;
+  border: 1px solid #324653;
+}
+
+.related-pattern-link:hover {
+  text-decoration: underline;
+  background-color: #F9FAFB;
+}
+
+.related-pattern-self-ref {
+  font-style: italic;
+}
+
+.pattern-section {
+  margin-bottom: 20px;
+}
+
+.pattern-section-title {
+  background-color: #3594D6;
+  color: #F9FAFB;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.pattern-section-content {
+  border-radius: 0 0 6px 6px;
+}
+
+.panel-game-list {
+  margin: 0 inherit !important;
+  border-radius: 0px !important;
+}
+
+a.controlMoreInfo {
+  padding: 2px 6px;
+  margin-left: 15px;
+  font-size: 12px;
+  background-color: #F9FAFB;
+  color: #000;
+  border: 1px solid #324653;
+  text-decoration: none;
+}
+
+a.controlMoreInfo:hover {
+  background-color: #324653;
+  color: #fff;
+}
+
+.pattern-basic-info {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1025;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 15px;
+}
+
+.pattern-basic-info.scrolled-down {
+  background-color: #096EB5;
+  color: #F9FAFB;
+  padding: 5px 15px;
+}
+
+.pattern-basic-info.scrolled-down > .pattern-name {
+  font-size: 22px;
+  padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+  .pattern-basic-info {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .pattern-basic-info {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .pattern-basic-info {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 992px) {
+  .pattern-name,
+  .pattern-category,
+  .pattern-therapy-goals {
+    display: block;
+  }
+
+  .pattern-name {
+    margin-bottom: 5px;
+    width: calc(100% - 31px);
+  }
+}

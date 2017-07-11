@@ -1,0 +1,53 @@
+{
+	"name": "Pick up and Play",
+	"definition": "Providing easy introductory levels can support a quick grasp of the game's rules and mechanics for players with a brain injury.",
+	"problem": "People who have had a brain injury are often first-time players and may be only playing the game because their therapists introduced the game. A game that requires a lot of learning will (1) take a lot of therapy session time for the player to learn the game and (2) will be discouraging for first-time players.",
+	"solution": "Provide easy introduction levels so that the player can easily pickup the game and play. Include activities that are either familiar to most people or very easy to learn.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "The goal of the game is straightforward. The mechanics are simple and easy to learn."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Soccer Heading",
+			"pattern-description": "The goal of the game is straightforward. The mechanics are simple and easy to learn."
+		},
+		{
+			"id": "3",
+			"name": "Kinect Sports - Bowling",
+			"pattern-description": "The rules of bowling are familiar to most players. And comparing to Wii Bowling, Kinect Bowling does not require any controllers. The players simply perform the bowling motion to bowl. There is minimal additional learning in this game."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "4",
+			"name": "Wii Fit - Obstacle Course",
+			"pattern-description": "Players need to control the timing of walk and stop and are required to jump to go over different types of obstacles. Players need to learn how to overcome various types of obstacles, even in the first level. "
+		},
+		{
+			"id": "5",
+			"name": "Wii Sports - Bowling",
+			"pattern-description": "The game is played with the Wii remote. Players need to follow three steps to bowl: (1) push B button, (2) swing their arm, and (3) release the button at a point of the swing when they want to release the ball. Players need to understand this sequence in order to bowl. While the rules may be familiar to the players, the control is not easy to learn."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Multiplayer Competition",
+			"description": "$thisPattern can support $rPattern by allowing newcomers avoid going through a steep learning curve"
+		},
+		{
+			"name": "Gentle Challenge Ramp",
+			"description": "Can be used with $rPattern to further ease the learning curve and promote a sense of in control for the player"
+		},
+		{
+			"name": "Minimized Distraction",
+			"description": "Can be used with $rPattern to further ease the cognitive load of the game and promote a sense of in control for the player"
+		},
+		{
+			"name": "Familiar Theme",
+			"description": "$rPattern sometimes entails familiar rules of the game, and thus facilitates Pick up and Play"
+		}
+	]
+}

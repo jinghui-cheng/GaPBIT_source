@@ -1,0 +1,39 @@
+{
+	"name": "Advancing",
+	"definition": "Players with brain injuries can often get frustrated because they cannot advance in a game due to poor performance. If the players' performance does not affect their advancing in the game world, it can provide a sense of progress to players.",
+	"problem": "Many patients with brain injuries are casual players - they will stop playing a game when they feel that they are not making progress.",
+	"solution": "Provide a sense of progress (i.e. introduce something new) regardless of players' performance so that players will be motivated to continue playing the game. Save the play's progress. Don't ask the players to start over from the very beginning when they fail.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Kinect Adventures",
+			"pattern-description": "Games in the Kinect Adventures focus on score collection. The players can move on to the next level regardless of their performance. This provides novel experiences and encourages player to engage in new game contents."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "2",
+			"name": "Wii Fit - Balance Bubble",
+			"pattern-description": "Whenever the bubble hits the bank or an obstacle, the player has to start from the very beginning of the stream."
+		},
+		{
+			"id": "3",
+			"name": "Wii Fit - Obstacle Course",
+			"pattern-description": "Whenever failed to pass an obstacle, the player has to replay the level. This frustrates many patients with a brain injury."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Gentle Challenge Ramp",
+			"description": "$rPattern is usually used with $thisPattern to help maintain a sense of progress"
+		},
+		{
+			"name": "Optimistic Performance Evaluation",
+			"description": "Usually used with $rPattern to avoid discouraging players when performance is not good"
+		},
+		{
+			"name": "Optional High-Level Challenge",
+			"description": "Games with $rPattern innately support Advancing"
+		}
+	]
+}

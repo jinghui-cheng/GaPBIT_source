@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'>
+	<title>GaPBIT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/motion_game.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/biinfo.css">
+</head>
+<body class="index">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="row">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-responsive-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<i class="fa fa-home"></i><span class="title hidden-xs">GaPBIT: Game Design Patterns for Brain Injury Therapy</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-responsive-collapse" style="margin-left: 30px;">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="eff-patterns.php">Patterns Focused on Therapy Goals</a></li>
+						<li><a href="exp-patterns.php">Patterns Focused on Player Experience</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="my-patterns.php">My Saved Patterns</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 col-md-push-5" id="right-panel">
+				<div class="row">
+					<div class="col-sm-12">
+						<video class="video" controls id="introVideo" preload="auto"
+								width="100%" style="border: 15px solid #E5E8EB;"
+								poster="vid/poster.png">
+							<source src="vid/intro.mp4" type="video/mp4"/>
+						</video>
+					</div>
+					<div class="col-sm-6">
+						<a id="function01" href="eff-patterns.php" class="btn btn-primary btn-large btn-tooltip"><b>Browse Game Design Patterns <br> Focused on Therapy Goals</b></a>
+					</div>
+					<div class="col-sm-6">
+						<a id="function02" href="exp-patterns.php" class="btn btn-primary btn-large btn-tooltip"><b>Browse Game Design Patterns <br> Focused on Player Experience</b></a>
+					</div>
+				</div>
+			</div>
+			<hr class="visible-sm visible-xs">
+			<div class="col-md-5 col-md-pull-7">
+				<div class="info-section-group" id="introduction" role="tablist" aria-multiselectable="true">
+					<div class="info-section info-section-collapse">
+						<div class="info-section-title" role="tab" id="aboutThisToolHeading">
+							<a role="button" data-toggle="collapse" data-parent="#introduction" href="#aboutThisTool" aria-expanded="false" aria-controls="aboutThisTool">
+								About This System
+							</a>
+						</div>
+						<div id="aboutThisTool" class="info-section-body collapse" role="tabpanel" aria-labelledby="aboutThisToolHeading">
+							<div class="info-section-content well">
+								<ul>
+									<li>We aimed at supporting game designers create <a href="#" style="color:#000;" id="gbiInAboutTool"><b>games for brain injury rehabilitation</b></a>.</li>
+									<li>In this system, we provide designers with <a href="#" style="color:#000;" id="gdpInAboutTool"><b>Game Design Patterns</b></a>
+										associated with: (1) therapy goals in brain injury rehabilitation and
+										(2) player experience of patients with a brain injury. </li>
+									<li>This system helps designers understand and choose
+										the game design patterns that may support game design and
+										communication of design ideas.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				  <div class="info-section info-section-collapse">
+				    <div class="info-section-title" role="tab" id="aboutBIHeading">
+							<a role="button" data-toggle="collapse" data-parent="#introduction" href="#aboutBI" aria-expanded="true" aria-controls="aboutBI">
+			          About Brain Injury
+			        </a>
+				    </div>
+				    <div id="aboutBI" class="info-section-body collapse" role="tabpanel" aria-labelledby="aboutBIHeading">
+							<div class="info-section-content well">
+								<ul>
+									<li>Brain injury is a major health issue in many societies.</li>
+									<li><b>Causes of brain injuries are varied</b> and include external traumatic events
+										(e.g. car accident, firearm), loss of oxygen to the brain, and stroke.</li>
+									<li><b>Individual impacts of a brain injury are diverse</b> and can involve
+										a wide range of physical and cognitive disabilities.</li>
+									<li>Because of the wide range of causes and potential
+										impacts from a brain injury, <b>therapists must customize
+										rehabilitation treatments for each patient</b>.</li>
+								</ul>
+							</div>
+				    </div>
+				  </div>
+				  <div class="info-section info-section-collapse">
+				    <div class="info-section-title" role="tab" id="whyUseGamesHeading">
+							<a role="button" data-toggle="collapse" data-parent="#introduction" href="#whyUseGames" aria-expanded="false" aria-controls="whyUseGames">
+			      		Why Therapists Use Games
+			        </a>
+							&nbsp;&nbsp;&nbsp; <a href="#" class="hide backLinkToAbout" id="backToAboutFromWhyUseGames">Go Back</a>
+				    </div>
+				    <div id="whyUseGames" class="info-section-body collapse" role="tabpanel" aria-labelledby="whyUseGamesHeading">
+							<div class="info-section-content well">
+								<ul>
+									<li>It is often challenging to motivate people
+									who have had a brain injury to engage in the repetitive exercises
+									common for rehabilitation. As a result, therapists usually include
+									games in rehabilitation sessions <b>to help make repetitive
+									tasks fun and engaging</b> (i.e., to increase motivation to
+									perform both physical and cognitive rehabilitation exercises).</li>
+
+									<li>Therapists use varied combinations of commercial off-the-shelf
+									games designed for the general public and games that are
+									specifically designed for brain injury therapy.</li>
+								</ul>
+							</div>
+				    </div>
+				  </div>
+					<div class="info-section info-section-collapse">
+						<div class="info-section-title" role="tab" id="aboutPatternsHeading">
+							<a role="button" data-toggle="collapse" data-parent="#introduction" href="#aboutPatterns" aria-expanded="false" aria-controls="aboutPatterns">
+								About Game Design Patterns
+							</a>
+							&nbsp;&nbsp;&nbsp; <a href="#" class="hide backLinkToAbout" id="backToAboutFromAboutPatterns">Go Back</a>
+						</div>
+						<div id="aboutPatterns" class="info-section-body collapse" role="tabpanel" aria-labelledby="aboutPatternsHeading">
+							<div class="info-section-content well">
+								<ul>
+									<li>Design patterns aim to provide a common language to support the
+										work of designers by documenting <b>successful solutions
+										that have addressed recurring design problems</b>.</li>
+									<li>We hope our therapy-centered game design patterns
+										would be able to
+										<ol>
+											<li>
+												support designers <b>brainstorm game ideas</b>
+												for brain injury rehabilitation games
+											</li>
+											<li>
+												<b>facilitate communication and mutual understanding</b>
+												among game designers and therapists
+											</li>
+										</ol></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/><br/>
+
+	<!-- JavaScript plugins (requires jQuery) -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/biinfo-layout.js"></script>
+	<script src="js/clickPlay.js"></script>
+</body>
+</html>

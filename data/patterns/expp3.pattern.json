@@ -1,0 +1,42 @@
+{
+	"name": "Adjustable Speed",
+	"definition": "Allowing the players to adjust the speed of the game can accommodate different patient perception and reaction abilities.",
+	"problem": "Depending on the type of brain injury, patients may have different levels of perception and reaction abilities. A fixed game speed may be too fast for some players but at the same time too slow for others.",
+	"solution": "If the game involves challenges to players' reaction speed, allow the players or the care-givers to adjust the speed of the game so that a wider range of patients can enjoy it.",
+	"example-games": "none",
+	"anti-example-games": [
+		{
+			"id": "1",
+			"name": "Kinect Adventures - River Rush",
+			"pattern-description": "The raft moves too fast for many players with a brain injury to perceive and react to the changes in the environment; the player could not control the speed."
+		},
+		{
+			"id": "2",
+			"name": "Kinect Sports - Table Tennis Paddle Panic",
+			"pattern-description": "The speed of the incoming balls is not adjustable and is too fast for many patients."
+		},
+		{
+			"id": "3",
+			"name": "Wii Fit - Soccer Heading",
+			"pattern-description": "The speed of the incoming balls is not adjustable and is too fast for many patients who have had a brain injury."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Enabling Theme",
+			"description": "$thisPattern allows a game with an $rPattern to be more enjoyable to patients with wider range of abilities."
+		},
+		{
+			"name": "Minimized Distraction",
+			"description": "Can be used with $rPattern to further avoid overwhelming patients"
+		},
+		{
+			"name": "Optional High-Level Challenge",
+			"description": "Can be used with $rPattern to adjust the optimized level of challenge for a wider range of players"
+		},
+		{
+			"name": "Gentle Challenge Ramp",
+			"description": "Can be used with $rPattern to adjust the starting challenge level for a wider range of players"
+		}
+	]
+}

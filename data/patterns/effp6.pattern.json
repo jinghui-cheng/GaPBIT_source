@@ -1,0 +1,45 @@
+{
+	"name": "Fine Control",
+	"definition": "Focusing on precision of action and promoting refined control on physical activities in game tasks can help patients with a brain injury practice certain physical abilities.",
+	"problem": "Given for granted, a typical person may find certain actions (e.g. weight shifting) easy to perform. However, patients with a brain injury would have to exert a considerable amount of physical and cognitive efforts to practice these abilities. A conscious awareness of certain body movements facilitated through refined control is crucial for rehabilitating on these actions. But patients with a brain injury may lack this kind of awareness and control. Practicing fine control is thus important for improving related physical abilities.",
+	"solution": "Involve mechanics to encourage fine control on physical activities that focus on precision of action and awareness of movements. For example, a refined control on the direction and degree of weight shifting is important for patients to improve weight-shifting precision and thus improve balance and gait.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "Players need to be aware of the degree and direction of their weight-shifting actions and provide fine control in order to move the marbles towards the holes while keeping all marbles from falling off the table."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Penguin Slide",
+			"pattern-description": "To effectively catch the fish, players need to be aware of and control the degree and the timing of weight-shifting actions."
+		},
+		{
+			"id": "3",
+			"name": "Kinect Sports - Soccer Target Kick",
+			"pattern-description": "Players are encouraged to control the direction of kicking in order to trick the goalie and hit the target. In addition, the players need to keep their balance to facilitate the kicking."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Change Hands",
+			"description": "Usually used with $rPattern to practice control over a non-dominant side of the body"
+		},
+		{
+			"name": "Moving Different Body Parts",
+			"description": "Usually used with $rPattern to practice control over different parts of the body and gain insights into deficits"
+		},
+		{
+			"name": "Self-Paced Weight Shifting",
+			"description": "When targeting weight shifting, $thisPattern is usually used with $rPattern, in which patients will have more time thinking and feeling upon their movements"
+		},
+		{
+			"name": "Minimalist Task",
+			"description": "Usually used with $rPattern to focus on practice of a particular action"
+		},
+		{
+			"name": "Focus and Distraction",
+			"description": "$thisPattern encourages players to be extremely focused on the activity, and thus promotes $rPattern"
+		}
+	]
+}

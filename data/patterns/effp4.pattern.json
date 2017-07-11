@@ -1,0 +1,53 @@
+{
+	"name": "Self-Paced Weight Shifting",
+	"definition": "Allowing players to determine the timing of weight shifting can help the patients with a brain injury focus on the weight shifting mechanics and limit unnecessary challenges (from limited processing time).",
+	"problem": "Practicing dynamic balance often includes activities involving weight shifting (side-to-side and/or front-to-back). Patients who are rehabilitating on dynamic balance and weight shifting abilities often have coordination issues that affect their reaction time to events.",
+	"solution": "Allow players to adjust the timing of weight shifting according to their own coordination and balancing abilities. Do not impose fix-paced actions.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "There is a timer for each level (which is usually perceived by therapists as a negative element). But there are no fix-paced events and players can perform weight shifting at their own pace."
+		},
+		{
+			"id": "2",
+			"name": "Wii Fit - Penguin Slide",
+			"pattern-description": "While the timing in which the fish jump out follows a pattern, players do not have to react to that pace to catch them. In other words, players can perform weight shifting at their own pace."
+		},
+		{
+			"id": "3",
+			"name": "Kinect Sports - Soccer Target Kick",
+			"pattern-description": "Players do not have to react to any events and can kick at their own pace. Note that kicking involves weight shifting, especially when alternating legs."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "4",
+			"name": "Wii Fit - Soccer Heading",
+			"control": "$wii-balance-board",
+			"pattern-description": "Players shift weight from side to side to head soccer balls that are kicked in, while avoiding hitting foils. The pace of the weight shifting has to follow that of the incoming balls and is usually too fast for patients who have had a brain injury."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Weight Shifting to the Extremes",
+			"description": "Can be used with $rPattern to further support practice of weight shifting"
+		},
+		{
+			"name": "Moving Different Body Parts",
+			"description": "Can be used with $rPattern to support weight shifting in all directions and facilitate insights into deficits in weight shifting"
+		},
+		{
+			"name": "Integrated Standing Duration",
+			"description": "Can be used with $rPattern to help practice standing"
+		},
+		{
+			"name": "Fine Control",
+			"description": "With $thisPattern, patients will have more time thinking, feeling, and/or reflecting upon their movements; so it can be easily combined with $rPattern to practice weight-shifting precisions"
+		},
+		{
+			"name": "Focus and Distraction",
+			"description": "This pattern facilitates a sense of autonomy and thus can encourage player motivation; so it can be used to promote $rPattern"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"name": "Gentle Challenge Ramp",
+	"definition": "To promote a feeling of being in control for players with a brain injury, the chellenge level of a game can be increased at a slower rate and new challenges or mechanics can be introduced at a slower rate.",
+	"problem": "It usually takes longer for a patient who had a brain injury to get ready to meet more difficult challenges even if they have learned the basics of a game. It takes longer for them to master the basics and come up with variations to solve new challenges.",
+	"solution": "Increase the challenge level or introduce new challenges or mechanics at a slower rate so that the player will be able to practice and master the required skills.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Kinect Adventures - River Rush",
+			"pattern-description": "When player move to a new level, the challenge level stays almost the same. The new river provides a sense of novelty; the new secrete areas provide new but optional challenges."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "2",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "The first level is relatively easy - there is only one ball and one hole and shape of the table is simple. The second level suddenly becomes too difficult for many patients - there are two balls and each time one ball falls, the table turns and may shake out the other ball. The fifth level is then extremely difficult for even the typical people - there are bumps that players have to carefully roll the balls over. None of the patients we studied with could pass the fifth level."
+		}
+	],
+	"related-patterns": [
+		{
+			"name1": "Pick up and Play",
+			"name2": "Adjustable Speed",
+			"description": "Can be used with $rPattern1 and/or $rPattern2 to further ease the learning curve and promote a sense of in control for the player."
+		},
+		{
+			"name": "Advancing",
+			"description": "Usually used with $rPattern to help maintain a sense of progress"
+		},
+		{
+			"name": "Optional High-Level Challenge",
+			"description": "Can be used with $rPattern to help get players engaged"
+		}
+	]
+}

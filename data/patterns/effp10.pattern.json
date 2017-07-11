@@ -1,0 +1,29 @@
+{
+	"name": "Step by Step",
+	"definition": "Require sequential player actions in game tasks can promote sequencing and command following abilities for patients with a brain injury.",
+	"problem": "Brain injury therapy may focus on improving patients' ability to understand and follow steps. Game actions that do not include sequential elements would not be effective at addressing this goal.",
+	"solution": "Include several steps in actions that are required to accomplish a certain activity in the game. Emphasize on the sequential relationships among those steps.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Sports - Bowling",
+			"pattern-description": "Players need to follow three steps to bowl: (1) push B button, (2) swing their arm, and (3) release the button at a point of the swing when they want to release the ball. Players need to understand this sequence in order to play this game."
+		},
+		{
+			"id": "2",
+			"name": "Minute to Win it - Bucket Head",
+			"pattern-description": "Players need to follow three steps to catch a ball: (1) reach arm to the side to grab a virtual ball, (2) throw the ball overhead, (3) step and/or lean left and right to aim and catch the ball. Players need to understand this sequence in order to play this game."
+		},
+		{
+			"id": "3",
+			"name": "Wii Sports - Golf",
+			"pattern-description": "Players need to follow three steps to play the game: (1) adjust the swing direction by pushing the direction buttons on the Wii remote, (2) point the Wii remote to the floor mimicking holding a golf club, (3) hold the A button on the remote and swing as if playing golf. Players need to understand this sequence in order to play this game."
+		}
+	],
+	"related-patterns": [
+		{
+			"name": "Turn-Based Multiplayer",
+			"description": "Sometimes used with $rPattern to support both sequencing and social interaction"
+		}
+	]
+}

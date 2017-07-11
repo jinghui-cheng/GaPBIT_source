@@ -1,0 +1,41 @@
+{
+	"name": "Minimized Distraction",
+	"definition": "Limiting the visual and audio effects in the game can help avoid distracting players with a brain injury from engaged gameplay.",
+	"problem": "Visual and audio effects are at the core of many games. But with visual and cognitive impairments, people with brain injuries are often overwhelmed by visual and audio stimulation. Visual and audio effects usually provide too much distraction from gameplay for people with brain injuries.",
+	"solution": "Be careful when using visual and audio effects and only include the necessary ones. Avoid overwhelming the patients.",
+	"example-games": [
+		{
+			"id": "1",
+			"name": "Wii Fit - Table Tilt",
+			"pattern-description": "There is no extra animation or sound effect in the game that distracts the player from focusing on the gameplay."
+		}
+	],
+	"anti-example-games": [
+		{
+			"id": "2",
+			"name": "Wii Fit - Soccer Heading",
+			"pattern-description": "The game mechanism is simple but there is a lot of background animation (e.g. a row of servers warming up) and extra sound effect (e.g. audience cheering). These effects can easily distract players with a brain injury from gameplay."
+		},
+		{
+			"id": "3",
+			"name": "Kinect Adventures - 20,000 Leaks",
+			"pattern-description": "There is too much peripheral animation in this game so that players can get distracted and confused about the goal and required actions of the game. The screen is very crowded, the cracks on the glass cube are very difficult to identify."
+		},
+		{
+			"id": "4",
+			"name": "Kinect Adventures - River Rush",
+			"pattern-description": "There is a lot of animation and visual effects in this game that is distracting for players with a brain injury. Although the game does not require fast reaction, the fast raft moving animation makes the game looks very fast. This sometimes intimidates players."
+		}
+	],
+	"related-patterns": [
+		{
+			"name1": "Pick up and Play",
+			"name2": "Adjustable Speed",
+			"description": "Can be used with $rPattern1 and/or $rPattern2 to further ease the learning curve and promote a sense of in control for the player."
+		},
+		{
+			"name": "Enabling Theme",
+			"description": "$thisPattern allows a game with an $rPattern to be more enjoyable by avoiding overwhelming patients"
+		}
+	]
+}
